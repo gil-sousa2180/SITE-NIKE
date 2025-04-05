@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #52df27;
+  color: #fff;
+  padding: 20px 130px;
+  height: 100vh;
+}
+
+.img-logo {
+  width: 80px;
+}
+
+.imagem-projeto {
+  width: 600px;
+  transform: rotate(-25deg);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.botao-carrinho {
+  background: #b8e040;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.7;
+    transform: scale(1.5);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75%;
+}
+
+.caixa-texto {
+  max-width: 400px;
+}
