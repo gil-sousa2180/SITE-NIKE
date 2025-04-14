@@ -45,6 +45,8 @@ body::after {
 .imagem-projeto {
   width: 500px;
   transform: rotate(-25deg);
+
+  filter: drop-shadow(#181717b0 1rem 1rem 10px);
 }
 
 h1 {
